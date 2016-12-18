@@ -3,18 +3,24 @@ package com.hgdendi.customizeview.View;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
+import android.graphics.Path;
 import android.graphics.Picture;
 import android.graphics.RectF;
+import android.graphics.Region;
 import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
+import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Toast;
 
 /**
- * Created by hgDendi on 17/12/2016.
+ * Created by hg.Dendi on 17/12/2016.
  */
 
 public class Taiji extends View {
 
+    private Region mClickRegion;
+    private Path mClickRegionPath;
     private Paint mBlackPaint;
     private Paint mWhitePaint;
     private float mRotateDegrees;
@@ -50,19 +56,38 @@ public class Taiji extends View {
         mRotateDegrees = 0;
 
         mPicture = new Picture();
+        mClickRegion = new Region();
+        mClickRegionPath = new Path();
     }
 
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
+        super.onSizeChanged(w, h, oldw, oldh);
         mWidth = w;
         mHeight = h;
-        initPicture();
+        int radius = Math.min(mWidth, mHeight) / 2;
+        mClickRegionPath.reset();
+        mClickRegionPath.addCircle(mWidth / 2, mHeight / 2, radius, Path.Direction.CW);
+        initPicture(radius);
+        mClickRegion.setPath(mClickRegionPath, new Region(0, 0, w, h));
     }
 
-    private void initPicture() {
-        Canvas canvas = mPicture.beginRecording(mWidth, mHeight);
-        int radius = Math.min(mWidth, mHeight) / 2;
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        switch (event.getAction()) {
+            case MotionEvent.ACTION_DOWN:
+                int x = (int) event.getX();
+                int y = (int) event.getY();
+                if (mClickRegion.contains(x, y)) {
+                    Toast.makeText(getContext(), "Clicked in Region", Toast.LENGTH_SHORT).show();
+                }
+                return true;
+        }
+        return false;
+    }
 
+    private void initPicture(int radius) {
+        Canvas canvas = mPicture.beginRecording(mWidth, mHeight);
         canvas.translate(mWidth / 2, mHeight / 2);
         RectF circleRect = new RectF(-radius, -radius, radius, radius);
         canvas.drawArc(circleRect, 270, 180, true, mBlackPaint);
