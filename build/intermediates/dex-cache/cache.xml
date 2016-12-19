@@ -97,7 +97,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="cf36028125c6246d794aba6fc27dd00978cc80ee">
+        sha1="a8fefb7d3449d14c9a8c5b99ed15bfbea80b72e2">
         <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2772dca6d14950700d75d0acc3d3adb5478fe79b/classes.dex" />
     </item>
     <item
@@ -106,7 +106,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="f99a026fac31c5fa5177afcdde0e3fdd76ad01c7">
+        sha1="5cb42ee31950fea9663432789ab9928d898eae05">
         <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_841a39f1045ad06981a5ff9dc9c79e91d03aa6fc/classes.dex" />
     </item>
     <item

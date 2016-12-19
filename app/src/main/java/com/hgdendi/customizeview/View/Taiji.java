@@ -1,5 +1,6 @@
 package com.hgdendi.customizeview.View;
 
+import android.animation.ValueAnimator;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
@@ -11,6 +12,7 @@ import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.animation.LinearInterpolator;
 import android.widget.Toast;
 
 /**
@@ -27,6 +29,7 @@ public class Taiji extends View {
     private Picture mPicture;
     private int mWidth;
     private int mHeight;
+    private ValueAnimator valueAnimator;
 
     public Taiji(Context context) {
         super(context);
@@ -58,6 +61,31 @@ public class Taiji extends View {
         mPicture = new Picture();
         mClickRegion = new Region();
         mClickRegionPath = new Path();
+
+        valueAnimator = ValueAnimator.ofFloat(0, 1);
+        valueAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+            private Object value;
+
+            @Override
+            public void onAnimationUpdate(ValueAnimator animation) {
+                float value = (float) animation.getAnimatedValue();
+                mRotateDegrees = value * 360;
+                invalidate();
+            }
+        });
+        valueAnimator.setInterpolator(new LinearInterpolator());
+        valueAnimator.setRepeatCount(ValueAnimator.INFINITE);
+        valueAnimator.setDuration(2000);
+    }
+
+    @Override
+    protected void onVisibilityChanged(View changedView, int visibility) {
+        super.onVisibilityChanged(changedView, visibility);
+        if (visibility == View.VISIBLE) {
+            valueAnimator.start();
+        } else {
+            valueAnimator.end();
+        }
     }
 
     @Override
@@ -103,7 +131,6 @@ public class Taiji extends View {
         canvas.drawCircle(0, 0, radius / 2, mWhitePaint);
         canvas.drawCircle(0, 0, radius / 8, mBlackPaint);
         canvas.restore();
-        mPicture.endRecording();
     }
 
     @Override
@@ -113,7 +140,6 @@ public class Taiji extends View {
         canvas.rotate(mRotateDegrees, mWidth / 2, mHeight / 2);
         canvas.drawPicture(mPicture);
 
-        mRotateDegrees += 5;
         invalidate();
     }
 }
