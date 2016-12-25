@@ -29,8 +29,11 @@
                 android:onClick="onRoundImageViewClicked"
                 android:src="@drawable/pic_wuyanzu" />
 
-            <com.hgdendi.customizeview.View.PathTestView
-                style="@style/scroll_list_view" />
+            <com.hgdendi.customizeview.View.PathTestView style="@style/scroll_list_view" />
+
+            <com.hgdendi.customizeview.View.ScratchImageView
+                style="@style/scroll_list_view"
+                android:src="@drawable/pic_wuyanzu" />
 
         </LinearLayout>
     </ScrollView>
