@@ -3,93 +3,48 @@
 
     <item
         is-multidex="true"
-        jar="/Users/dendich/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jar="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_bce8c31354342b2934545b773f12c6fcfbba4992/classes.dex" />
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_243264fd0c426c665254036f698c67f46a1f0160/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jar="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_9c6b0360de1d6fabd8b5dcc5bf7cf528c5c06b1f/classes.dex" />
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_38f5b5fc2a25820dc106de2ba91b45cfded885c3/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jar="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_5143accdbbd9c54c533f04cddeee0f106e60db3c/classes.dex" />
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.0_59f429841da3717154e2e7914f8791865a15c1ee/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jar="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_0bcdf18eee487559d5533d9a73ab398ffac64a0f/classes.dex" />
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_0ff3a30f08422e8947c7d956f1b1059d5085727e/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jar="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_2a5877d6cc3fd01a59ece8b55fab3940cd9ef524/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_e8adf5639b5a01457cd679b19242908e657e431a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_1e35c10c105f15fc704ac64e7f3a7559367e764e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_4742889efa208aebab9c12b37c1b543763e47624/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_70ebf6b61937297ce352390cef44f72610f4ab02/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_eea026cb58ceb61b956f23fc908a17dcd2f5fbd7/classes.dex" />
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.0_5342c85062cc004458d93683fdf9ae3eb7df3618/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -97,7 +52,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="a8fefb7d3449d14c9a8c5b99ed15bfbea80b72e2">
+        sha1="119cdc8d48d153cc07e0226dd7990735054058ea">
         <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2772dca6d14950700d75d0acc3d3adb5478fe79b/classes.dex" />
     </item>
     <item
@@ -106,53 +61,90 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="5cb42ee31950fea9663432789ab9928d898eae05">
+        sha1="92b68b7becd89a3b3d9c6efb787a1874a81885c9">
         <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_841a39f1045ad06981a5ff9dc9c79e91d03aa6fc/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jar="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_f69d6c8f43f2b4a52dc825cade8b522c825559da/classes.dex" />
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_a6b18ddbb277b442b6fb5418c45f6bcba2fce144/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jar="/Users/dendich/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_cddfde926a398c62b506796fd9318b88421eb1fc/classes.dex" />
+<<<<<<< 5c6665e42ad9b70663e7f5aed9fb422ee27a3902
+        sha1="a8fefb7d3449d14c9a8c5b99ed15bfbea80b72e2">
+        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2772dca6d14950700d75d0acc3d3adb5478fe79b/classes.dex" />
+=======
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_2997cf9749efab481f58db7d6f98be5b8b2df853/classes.dex" />
+>>>>>>> add RoundImageView
     </item>
     <item
         is-multidex="true"
-        jar="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jar="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_c2ea5524f23e59f71a9fde3339e045da4e7b9423/classes.dex" />
+<<<<<<< 5c6665e42ad9b70663e7f5aed9fb422ee27a3902
+        sha1="5cb42ee31950fea9663432789ab9928d898eae05">
+        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_841a39f1045ad06981a5ff9dc9c79e91d03aa6fc/classes.dex" />
+=======
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_0f17c045c7af17a8a723e8f7695a9e9b5b5a7546/classes.dex" />
+>>>>>>> add RoundImageView
     </item>
     <item
         is-multidex="true"
-        jar="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jar="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_cd650e8a63489d7db13d53fb9344842bf92e5fc1/classes.dex" />
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_1afefb52e177f5c8e28f6f15e0555b7f6515a408/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jar="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_01a969aed1ecc852edd30fef222951bf58daf07b/classes.dex" />
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_d8d78c0b5bcbd9d1b14b321e3aeb8f384dc8d930/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.0_3d8fe3de1ddb49b56424b117317162b1372d2699/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_cda3852ef86f01a37f7d0f0dda769f8bfe8cb41f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Users/dendich/Desktop/github/CustomizeView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_b81a93182bde2c0c235c777f366c95f9c1a942c5/classes.dex" />
     </item>
 
 </items>

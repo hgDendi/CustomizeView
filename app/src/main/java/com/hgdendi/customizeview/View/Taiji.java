@@ -8,12 +8,12 @@ import android.graphics.Path;
 import android.graphics.Picture;
 import android.graphics.RectF;
 import android.graphics.Region;
+import android.support.annotation.NonNull;
 import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.LinearInterpolator;
-import android.widget.Toast;
 
 /**
  * Created by hg.Dendi on 17/12/2016.
@@ -79,7 +79,7 @@ public class Taiji extends View {
     }
 
     @Override
-    protected void onVisibilityChanged(View changedView, int visibility) {
+    protected void onVisibilityChanged(@NonNull View changedView, int visibility) {
         super.onVisibilityChanged(changedView, visibility);
         if (visibility == View.VISIBLE) {
             valueAnimator.start();
@@ -102,16 +102,9 @@ public class Taiji extends View {
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-        switch (event.getAction()) {
-            case MotionEvent.ACTION_DOWN:
-                int x = (int) event.getX();
-                int y = (int) event.getY();
-                if (mClickRegion.contains(x, y)) {
-                    Toast.makeText(getContext(), "Clicked in Region", Toast.LENGTH_SHORT).show();
-                }
-                return true;
-        }
-        return false;
+        int x = (int) event.getX();
+        int y = (int) event.getY();
+        return mClickRegion.contains(x, y) && super.onTouchEvent(event);
     }
 
     private void initPicture(int radius) {
@@ -140,6 +133,7 @@ public class Taiji extends View {
         canvas.rotate(mRotateDegrees, mWidth / 2, mHeight / 2);
         canvas.drawPicture(mPicture);
 
+        mRotateDegrees -= 5;
         invalidate();
     }
 }

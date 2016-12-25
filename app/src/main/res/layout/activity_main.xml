@@ -10,7 +10,27 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.hgdendi.customizeview.MainActivity">
 
-    <com.hgdendi.customizeview.View.Taiji
-        android:layout_width="200dp"
-        android:layout_height="200dp" />
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.hgdendi.customizeview.View.Taiji
+                style="@style/scroll_list_view"
+                android:onClick="onTaijiClicked" />
+
+            <com.hgdendi.customizeview.View.RoundImageView
+                android:id="@+id/round_imageview"
+                style="@style/scroll_list_view"
+                android:onClick="onRoundImageViewClicked"
+                android:src="@drawable/pic_wuyanzu" />
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
 </RelativeLayout>
