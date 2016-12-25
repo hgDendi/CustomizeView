@@ -10,7 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.hgdendi.customizeview.MainActivity">
 
-    <android.support.v4.widget.NestedScrollView
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -29,8 +29,11 @@
                 android:onClick="onRoundImageViewClicked"
                 android:src="@drawable/pic_wuyanzu" />
 
+            <com.hgdendi.customizeview.View.PathTestView
+                style="@style/scroll_list_view" />
+
         </LinearLayout>
-    </android.support.v4.widget.NestedScrollView>
+    </ScrollView>
 
 
 </RelativeLayout>
