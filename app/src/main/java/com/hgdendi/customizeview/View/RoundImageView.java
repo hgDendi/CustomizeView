@@ -12,15 +12,15 @@ import android.graphics.Shader;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
+import android.support.v7.widget.AppCompatImageView;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
-import android.widget.ImageView;
 
 /**
  * Created by dendich on 25/12/2016.
  */
 
-public class RoundImageView extends ImageView {
+public class RoundImageView extends AppCompatImageView {
 
     private Paint mPaint;
     private int mWidth;
@@ -52,12 +52,13 @@ public class RoundImageView extends ImageView {
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
         super.onSizeChanged(w, h, oldw, oldh);
-        mWidth = w;
-        mHeight = h;
-        mRadius = Math.min(w, h) / 2;
+        mWidth = w - getPaddingLeft() - getPaddingRight();
+        mHeight = h - getPaddingTop() - getPaddingBottom();
+        mRadius = Math.min(mWidth, mHeight) / 2;
 
         Path clickPath = new Path();
-        clickPath.addCircle(mRadius, mRadius, mRadius, Path.Direction.CW);
+        clickPath.addCircle(mWidth / 2 + getPaddingLeft(), mHeight / 2 + getPaddingTop(), mRadius,
+                Path.Direction.CW);
         mClickRegion.setPath(clickPath, new Region(0, 0, w, h));
     }
 
@@ -66,7 +67,8 @@ public class RoundImageView extends ImageView {
         if (!isReadyToDraw()) {
             return;
         }
-        canvas.drawCircle(mRadius, mRadius, mRadius, mPaint);
+        canvas.drawCircle(mWidth / 2 + getPaddingLeft(), mHeight / 2 + getPaddingTop(),
+                mRadius, mPaint);
     }
 
     private boolean isReadyToDraw() {

@@ -51,7 +51,6 @@ public class Taiji extends View {
         mBlackPaint.setColor(ContextCompat.getColor(getContext(), android.R.color.black));
         mBlackPaint.setStyle(Paint.Style.FILL);
 
-
         mWhitePaint = new Paint();
         mWhitePaint.setColor(ContextCompat.getColor(getContext(), android.R.color.white));
         mWhitePaint.setStyle(Paint.Style.FILL);
