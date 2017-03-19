@@ -35,6 +35,9 @@
                 style="@style/scroll_list_view"
                 android:src="@drawable/pic_wuyanzu" />
 
+            <com.hgdendi.customizeview.View.PercentCircleView
+                style="@style/scroll_list_view" />
+
         </LinearLayout>
     </ScrollView>
 
