@@ -93,7 +93,10 @@ public class PercentCircleView extends View {
         float distance = mPathMeasure.getLength() * mPercentage / 100;
         mPathMeasure.getSegment(0, distance, mActivePath, true);
         canvas.drawPath(mActivePath, mPaint);
-        canvas.drawText(String.valueOf(mPercentage), mCenterPoint.x, mCenterPoint.y, mPaint);
+
+        canvas.drawText(String.valueOf(mPercentage),
+                mCenterPoint.x - mPaint.measureText(String.valueOf(mPercentage)) / 2,
+                mCenterPoint.y, mPaint);
 
         mPathMeasure.getPosTan(distance, mArrowPosition, mArrowTan);
         mMatrix.reset();
