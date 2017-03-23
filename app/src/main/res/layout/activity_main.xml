@@ -39,6 +39,7 @@
 
             <com.hgdendi.customizeview.View.XfermodePaintView style="@style/scroll_list_view" />
             <com.hgdendi.customizeview.View.PathEffectPaintView style="@style/scroll_list_view" />
+            <com.hgdendi.customizeview.View.SurfaceViewDemo style="@style/scroll_list_view" />
 
         </LinearLayout>
     </ScrollView>
