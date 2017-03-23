@@ -4,6 +4,9 @@ import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.view.ViewGroup;
+import android.view.animation.LayoutAnimationController;
+import android.view.animation.ScaleAnimation;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,6 +14,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ScaleAnimation sa = new ScaleAnimation(0, 1, 0, 1);
+        sa.setDuration(500);
+        LayoutAnimationController lac = new LayoutAnimationController(sa, 0.5f);
+        lac.setOrder(LayoutAnimationController.ORDER_NORMAL);
+        ((ViewGroup) findViewById(R.id.linear_layout)).setLayoutAnimation(lac);
     }
 
     public void onRoundImageViewClicked(View view) {

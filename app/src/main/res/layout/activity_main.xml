@@ -15,7 +15,9 @@
         android:layout_height="match_parent">
 
         <LinearLayout
+            android:id="@+id/linear_layout"
             android:layout_width="match_parent"
+            android:animateLayoutChanges="true"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
@@ -38,7 +40,9 @@
             <com.hgdendi.customizeview.View.PercentCircleView style="@style/scroll_list_view" />
 
             <com.hgdendi.customizeview.View.XfermodePaintView style="@style/scroll_list_view" />
+
             <com.hgdendi.customizeview.View.PathEffectPaintView style="@style/scroll_list_view" />
+
             <com.hgdendi.customizeview.View.SurfaceViewDemo style="@style/scroll_list_view" />
 
         </LinearLayout>
