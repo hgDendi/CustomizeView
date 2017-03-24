@@ -17,8 +17,8 @@
         <LinearLayout
             android:id="@+id/linear_layout"
             android:layout_width="match_parent"
-            android:animateLayoutChanges="true"
             android:layout_height="match_parent"
+            android:animateLayoutChanges="true"
             android:orientation="vertical">
 
             <com.hgdendi.customizeview.View.Taiji
@@ -44,6 +44,11 @@
             <com.hgdendi.customizeview.View.PathEffectPaintView style="@style/scroll_list_view" />
 
             <com.hgdendi.customizeview.View.SurfaceViewDemo style="@style/scroll_list_view" />
+
+            <ImageView
+                android:id="@+id/animated_vector"
+                style="@style/scroll_list_view"
+                android:src="@drawable/animated_vector" />
 
         </LinearLayout>
     </ScrollView>
